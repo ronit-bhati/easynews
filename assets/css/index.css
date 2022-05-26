@@ -1,0 +1,37 @@
+.main-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    height: 4.5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pageCont {
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+#outer-cont{
+    margin-bottom: 95px;
+}
+
+.newsImage{
+    min-height: 100%;
+    min-width: 100%;
+}
