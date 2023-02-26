@@ -5,7 +5,7 @@ newsAPI = 'e7afc78ed42e4ad9b63d51a91648b520';
 const xhr = new XMLHttpRequest();
 
 // opening the request with the api and method
-xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=us&pageSize=100&apiKey=${newsAPI}`, true);
+xhr.open('GET', `https://newsapi.org/v2/top-headlines?pageSize=50&sources=bbc-news&apiKey=${newsAPI}`, true);
 
 // element where all cards are present
 const allNews = document.getElementById('allNews');
